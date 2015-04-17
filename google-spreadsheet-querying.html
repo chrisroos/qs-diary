@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>QS Diary</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" type="text/css" media="screen">
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="https://code.jquery.com/jquery-2.1.3.js" type="text/javascript" charset="utf-8"></script>
+    <style type="text/css" media="screen">
+      body {
+        padding-top: 65px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">QS Diary</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <label for="date">Date</label>
+      <input id="date" type="date"></input>
+
+      <h1 id="friendlyDate"></h1>
+
+      <nav>
+        <ul class="pager">
+          <li class="previous">
+            <a id="previousDay" href="#"><span aria-hidden="true">&larr;</span> Older</a>
+          </li>
+          <li class="next">
+            <a id="nextDay" href="#">Newer <span aria-hidden="true">&rarr;</span></a>
+          </li>
+        </ul>
+      </nav>
+
+      <h2>Places visited</h2>
+      <div id="placesVisited"></div>
+
+      <h2>Oyster Journey History</h2>
+      <div id="oysterJourneyHistory"></div>
+
+      <h2>Barclays Cycle Hire</h2>
+      <div id="barclaysCycleHire"></div>
+
+      <h2>Standing desk use (hours)</h2>
+      <div id="standingDesk"></div>
+
+      <h2>Reading</h2>
+      <div id="readingDiary"></div>
+
+      <h2>Film and TV</h2>
+      <div id="filmAndTV"></div>
+
+      <h2>Weight (kg)</h2>
+      <div id="weight"></div>
+    </div>
+
+    <script src="qs-diary.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
