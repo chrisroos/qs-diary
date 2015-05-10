@@ -26,3 +26,6 @@
 * Add Sleep as Android data?
 
 * Add alcohol consumption
+
+* Add completed todoist tasks
+* 
