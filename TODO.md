@@ -24,3 +24,5 @@
 * Add weather?
 
 * Add Sleep as Android data?
+
+* Add alcohol consumption
