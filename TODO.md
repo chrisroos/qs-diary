@@ -1,3 +1,5 @@
+* Add links to work notes and personal diary
+
 * Display an error message when the data couldn't be retrieved (when I'm not signed in to my Google account, for example).
 
 * Changing the date should update the URL so that refreshing the page doesn't take you back to the current date
